@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>
+            My webiste
+        </title>
+        <style>
+            body{
+                margin:0%;
+            }
+            header{
+                background-color: rgba(38, 122, 161, 0.537);
+                padding: 30px;
+                text-align: center;
+                font-size: 50px;
+                border: 2px solid black;
+                font-style: italic;
+                color: whitesmoke;
+            }
+
+            nav{
+                display:flex;
+                gap: 100px ;
+                justify-content: center;
+                padding: 12px;
+                border-bottom: 2px black solid;
+
+            }
+            a{
+                text-decoration: none;
+                background-color: antiquewhite;
+                color: black;
+
+            }
+
+            marquee{
+                margin-top: 50px;
+                font-size: 30px;
+            }
+
+            .c{
+
+                width: 100%;
+                margin: auto;
+                /* /* background-color: transparent; */
+                background-color: rgba(245, 245, 245, 0.203);
+            }   
+            .ps{
+                display:grid;
+                grid-template-columns: repeat(3,1fr);
+                justify-items: center;
+                gap: 80px;
+            }
+
+            .product{
+                background-color: rgba(38, 122, 161, 0.344);
+                padding:40px;
+                margin: 60px;
+                text-align: center;
+            }
+            .product h2{
+                font-size:25px;
+            }
+            .price{
+                font-size: 22px;
+            }
+
+            .btn{
+                padding: 15px;
+                width:100%;
+                font-size: 18px;
+            }
+            .btn:hover{
+                color: white;
+                background-color: black ;
+                font-weight: bold;
+            }
+
+            footer{
+                text-align: center;
+                background-color: rgba(38, 122, 161, 0.344);
+                font-size: 20px;
+                padding: 15px;
+            }
+            /* h1{
+                padding: 10px;
+                margin-top: 50px;
+                margin-left:600px;
+                margin-right: 600px;
+                display: flex;
+                justify-content: center;
+                background-color: antiquewhite;
+                color: black;
+            } */
+        </style>
+    </head>
+    <body>
+        <header>Shopify</header>
+        <nav>
+            <a href="C:\Users\raned\OneDrive\Documents\D\home.html">Home</a>
+            <a href="">Catalogue</a>
+            <a href="C:\Users\raned\OneDrive\Documents\D\customerf.html">Feedback</a>
+            <a href="#">Contact</a>
+            <a href="#">About us</a>
+        </nav>
+        <marquee behavior="scroll" direction="left">&#128293 Best Seller &#128293</marquee>
+         <!-- <h1>&#128293 Best Seller &#128293</h1> -->
+        <div class="c">
+            <div class="ps">
+                <div class="product">
+                    <img src="C:\Users\raned\OneDrive\Documents\Diksha\images\speaker.jpg" alt="product 1">
+                    <h2>Speaker</h2>
+                    <p class="price">$150</p>
+                    <button class="btn">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\raned\OneDrive\Documents\Diksha\images\shoes.jpg" alt="product 2">
+                    <h2>Shoes</h2>
+                    <p class="price">$80</p>
+                    <button class="btn">Add To Cart</button>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\raned\OneDrive\Documents\Diksha\images\makeupkit.jpg" alt="product 3">
+                    <h2>Makeup kit</h2>
+                    <p class="price">$45</p>
+                    <button class="btn">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+                    &copy;My website 2025
+                </footer>
+    </body>
+</html>
